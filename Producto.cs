@@ -77,8 +77,8 @@ public class Producto
     {
         Console.WriteLine($"Código: {Codigo}");
         Console.WriteLine($"Nombre: {Nombre}");
-        Console.WriteLine($"Precio: {Precio}");
+        Console.WriteLine($"Precio: RD$ {Precio:N2}");
         Console.WriteLine($"Cantidad: {Cantidad}");
-        Console.WriteLine($"Valor total: {ValorTotal}");
+        Console.WriteLine($"Valor total: RD$ {ValorTotal:N2}");
     }
 }

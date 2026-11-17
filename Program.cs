@@ -20,7 +20,7 @@ decimal totalInventario =
     producto2.ValorTotal +
     producto3.ValorTotal;
 
-Console.WriteLine($"\nValor total del inventario: {totalInventario}");
+Console.WriteLine($"\nValor total del inventario: RD$ {totalInventario:N2}");
 
 static Producto RegistrarProducto(int numero)
 {
