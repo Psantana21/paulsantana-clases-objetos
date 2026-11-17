@@ -34,3 +34,35 @@ dotnet run
 3. Rechazo de nombre vacío.
 4. Rechazo de cantidad negativa.
 5. Manejo de entradas no numéricas.
+
+
+## Ejemplo de ejecución
+
+El programa solicita los datos de tres productos.
+
+### Datos de ejemplo
+
+| Código | Nombre | Precio | Cantidad |
+|--------|--------|--------|----------|
+| P001 | Laptop | 25000 | 3 |
+| P002 | Mouse | 500 | 10 |
+| P003 | Teclado | 1500 | 3 |
+
+### Resultados
+
+- Laptop: RD$ 75,000.00
+- Mouse: RD$ 5,000.00
+- Teclado: RD$ 4,500.00
+
+**Valor total del inventario: RD$ 84,500.00**
+
+## Validaciones implementadas
+
+El sistema rechaza:
+- Nombres vacíos.
+- Precios iguales o menores que cero.
+- Cantidades negativas.
+- Entradas no numéricas en precio o cantidad.
+
+Cuando ocurre un error, el programa muestra
+un mensaje y permite intentar nuevamente.
