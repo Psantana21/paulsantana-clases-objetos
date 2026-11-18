@@ -66,3 +66,18 @@ El sistema rechaza:
 
 Cuando ocurre un error, el programa muestra
 un mensaje y permite intentar nuevamente.
+
+
+## Evidencias de ejecución
+
+### 1. Datos válidos
+![Datos válidos](capturas/datos-validos.png)
+
+### 2. Precio negativo
+![Precio negativo](capturas/precio-negativo.png)
+
+### 3. Nombre vacío
+![Nombre vacío](capturas/nombre-vacio.png)
+
+### 4. Cantidad cero
+![Cantidad cero](capturas/cantidad-cero.png)
