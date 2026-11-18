@@ -1,6 +1,11 @@
 
 # TecnoPunto - Control de Inventario
 
+
+## Autor
+- Nombre completo: Paul Francisco Santana Alemán
+- Matrícula: 2026-1834
+
 ## Descripción
 Aplicación de consola desarrollada en C# para registrar
 productos y calcular el valor total de su inventario.
@@ -18,6 +23,28 @@ productos y calcular el valor total de su inventario.
 - Manejo de entradas numéricas incorrectas.
 - Cálculo del valor total de cada producto.
 - Cálculo del valor total del inventario.
+
+## Datos de entrada
+El usuario introduce para cada producto:
+- Código del producto.
+- Nombre del producto.
+- Precio del producto.
+- Cantidad disponible.
+
+## Datos que procesa
+El programa:
+- Valida que el nombre no esté vacío.
+- Comprueba que el precio sea mayor que cero.
+- Verifica que la cantidad no sea negativa.
+- Calcula el valor total de cada producto multiplicando el precio por la cantidad.
+- Suma los valores de los tres productos para obtener el total del inventario.
+
+## Datos de salida
+El programa muestra:
+- Código, nombre, precio y cantidad de cada producto.
+- Valor total de cada producto.
+- Valor total general del inventario.
+- Mensajes de error cuando se introducen datos inválidos.
 
 ## Estructura del proyecto
 - Producto.cs: clase, propiedades, constructor y métodos.
